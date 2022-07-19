@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0;  }
+body {  color:#555; font-size:14px;     font-family: Arial, Helvetica, sans-serif; line-height:1.6; width:984px; margin:0 auto; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:none;  }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+/* css common */
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+.fl { float:left;}
+.fr { float:right;}
+
+.header .topl h1 { font-family:times new roman,times,serif; font-size:61px; color: #2D2D2D;
+line-height:0.9em;}
+.topl { width:650px; margin:30px 0;}
+.header .topl h2 {font-family: times new roman,times,serif;     color: #259E78;     font-size: 40px;     line-height: 1.0em;}
+.font1 {color: #767676; font-size:20px; line-height:1.4em; font:Verdana, Geneva, sans-serif; font-weight:700;}
+.topr { padding-top:15px;}
+
+.slideTxtBox{ width:984px; margin:20px 0;  }
+		.slideTxtBox .hd{ height:54px; background:url(../images/navbg.jpg) no-repeat;  position:relative; line-height:54px; }
+		.slideTxtBox .hd ul{ float:left;  position:absolute; left:20px; top:-1px; height:32px;   }
+		.slideTxtBox .hd ul li{ float:left;  cursor:pointer; background:url(../images/nav.jpg) no-repeat; width:153px; height:47px; margin:5px 10px 0 10px; text-align:center; transition: color 0.4s ease 0s;
+    color: #2D2D2D; font-size:22px; line-height:47px;   }
+		.slideTxtBox .hd ul li.on{ width:153px; height:47px; margin:5px 10px 0 10px; text-align:center; transition: color 0.4s ease 0s;
+    color: #2D2D2D; font-size:22px; line-height:47px; }
+		.slideTxtBox .bd ul{ padding:15px;  zoom:1;  }
+		.slideTxtBox .bd li{ height:24px; line-height:24px;   }
+		.slideTxtBox .bd li .date{ float:right; color:#999;  }
+.b1 { font-weight:700; font-size:22px;   }		
+
+.m1l { width:580px;}
+.font_2 {     font: normal normal normal 22px/1.4em Anton,sans-serif;
+    color: #000;  }
+.m1r { width:309px; height:353px; background:url(../images/pic2.jpg) no-repeat;
+ }
+
+.title { width:308px; height:45px; }
+.title2 {     font-family: times new roman,times,serif; color:#000; font-size:20px;}
+.b2 {    font-weight: bold;}
+.contact { margin:65px 0 0 5px;}
+.email { margin-top:35px;}
+.email img { float:left;}
+.email span { font-size:16px; padding:10px 0 0 20px; float:left; }
+.m2 h2 { font-family: eb garamond,serif;
+    font-weight: bold; font-size:22px;}
+.m2 p {    font-family: eb garamond,serif;
+    font-size: 18px; }
